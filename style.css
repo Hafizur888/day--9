@@ -1,0 +1,27 @@
+
+.container {
+	/*  display: inline-block */
+  cursor: pointer;
+   margin-left: 600px;
+   margin-top: 250px; 
+}
+
+.line1, .line2, .line3 {
+	width: 35px;
+	height: 5px;
+	background-color: #6f0bea7f;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.change .line1 {
+	transform: translate(0, 11px) rotate(-45deg);
+}
+.change .line2 {
+	opacity: 0;
+}
+
+.change .line3  {
+	transform: translate(0, -11px) rotate(45deg);
+}
+
